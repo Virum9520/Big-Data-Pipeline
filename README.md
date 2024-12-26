@@ -1,5 +1,8 @@
 # Real-time Data Streaming and Data Warehousing Pipeline 
 
+### **Pipeline Diagram**
+![Pipeline](data/Pipeline.png)
+
 ---
 
 ## CHAPTER 1: INTRODUCTION
@@ -41,9 +44,6 @@ The dataset was cleaned, anomalies rectified, and missing values addressed to en
    - **Amazon Athena** enabled interactive querying directly on S3 data using SQL.
 7. **Visualization:**  
    - Insights visualized with **Amazon QuickSight** dashboards.
-
-### **Pipeline Diagram**
-![Pipeline](data/Pipeline.png)
 
 ---
 
