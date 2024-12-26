@@ -8,6 +8,8 @@ In today's data-centric world, where the volume, velocity, and variety of data c
 
 This project focuses on building a robust pipeline using **Spotify data** to integrate real-time data streaming and data warehousing solutions. The pipeline leverages cutting-edge technologies such as **Kafka, AWS EC2, AWS Glue, Amazon Athena, and Amazon QuickSight**. 
 
+---
+
 ## CHAPTER 2: DATA DESCRIPTION AND ANALYSIS
 
 - **Files:** Albums, artists, tracks, features, and Spotify data 2023.  
@@ -40,6 +42,9 @@ The dataset was cleaned, anomalies rectified, and missing values addressed to en
 7. **Visualization:**  
    - Insights visualized with **Amazon QuickSight** dashboards.
 
+### **Pipeline Diagram**
+![Pipeline](data/Pipeline.png)
+
 ---
 
 ## CHAPTER 4: RESULT ANALYSIS
@@ -52,10 +57,19 @@ The pipeline's implementation provided several outcomes:
 3. **Diverse Data Handling:**  
    - Efficiently processed complex data structures, offering insights into user preferences.  
 
+### **Cluster Analysis**
+#### Cluster 1
+![Cluster 1](data/Cluster1.png)
+
+#### Cluster 2
+![Cluster 2](data/Cluster2.png)
+
 ### **QuickSight Visualizations**
 - **Top Albums in the Last 5 Years:** Trends and metrics on album performance.  
 - **Top Genres:** Popularity trends over time, guiding content strategies.  
 - **Most Streamed Artists:** Insights into artist metrics for promotional campaigns.
+
+![QuickSight Visualization](data/Quicksight.png)
 
 ---
 
@@ -69,5 +83,3 @@ The pipeline revolutionized Spotify's data handling by:
 ### **Future Scope**
 - Integration of machine learning and AI for deeper personalization.  
 - Exploration of new trends like podcasts and audiobooks for content diversification.
-
-
